@@ -1,0 +1,97 @@
+/* font-family: "Noto Serif", serif; */
+/* font-family: "Inter", sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Shared Style  */
+.primary-text{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.37rem;
+    font-family: "Inter", sans-serif;
+}
+.title-color{
+    color: #E95A08;
+}
+.title-h3{
+    font-family: "Noto Serif", serif;
+    font-size: 3.12rem;
+    font-weight: 700;
+}
+.btn{
+    color: white;
+    background-color: #E95A08;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    padding: 1.187rem 5rem;
+}
+.display-flex{
+    display: flex;
+}
+
+/* Header Section Style  */
+
+.header{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Nav Style  */
+.navbar ul li{
+    list-style: None;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: "Inter", sans-serif;
+}
+.navbar ul .menu{
+    color: #8987A1;
+}
+.nav{
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul{
+    gap: 3rem;
+}
+.nav-logo img{
+    width: 100%;
+    height: auto;
+}
+/* Banner Style  */
+.banner{
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 7.5rem;
+}
+.banner-left h1{
+    font-size: 4rem;
+    font-weight: 700;
+    font-size: "Noto Serif", serif;
+    margin-bottom: 0.82rem;
+}
+
+
+
+
+
+/* Responsive Mobile Device */
+@media screen and (max-width: 576px) {
+    /* Banner Section  */
+    ul .home, ul .menu{
+        display: none;
+    }
+    .nav{
+        padding: 1rem;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-left{
+        padding: 1.75rem 1rem 4rem 1rem;
+    }
+}
