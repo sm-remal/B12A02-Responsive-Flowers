@@ -73,7 +73,7 @@
 .banner-left h1{
     font-size: 4rem;
     font-weight: 700;
-    font-size: "Noto Serif", serif;
+    font-family: "Noto Serif", serif;
     margin-bottom: 0.82rem;
 }
 
@@ -84,8 +84,6 @@
     margin-top: 7.5rem;
 }
 
-
-
 /* Card Section Style  */
 
 .our-plants{
@@ -95,6 +93,8 @@
     margin-bottom: 1rem;
 }
 .our-plants p{
+    max-width: 880px;
+    margin: 0 auto;
     margin-bottom: 3rem;
 }
 .card-section{
@@ -124,8 +124,49 @@
     font-weight: 700;
 }
 
-
-
+/* /* Plants Lover Style  */
+.plants-lover-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 12rem;
+}
+.badge{
+    max-width: 285px;
+    height: 285px;
+    position: absolute;
+    bottom: 73%;
+    left: 31%; 
+} 
+.plants-lover-container img{
+    width: 100%;
+    height: auto;
+}
+.plants-lover{
+    gap: 3.75rem;
+    align-items: center;
+}
+.plants-lover-left{
+    flex: 1;
+}
+.plants-lover-left img{
+    width: 100%;
+    height: auto;
+}
+ul li{
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 2.5rem;
+}
+.plants-lover-right{
+    font-family: "Noto Serif", serif;
+    font-size: 1.9rem;
+    font-weight: 600;
+    flex: 1;
+}
+.plants-lover-right h2{
+    max-width: 510px;
+    margin-bottom: 1rem;
+}
 
 
 
@@ -144,6 +185,13 @@
     .banner-left{
         padding: 1.75rem 1rem 4rem 1rem;
     }
+    .banner-left h1{
+        font-size: 2.5rem;
+    }
+    .our-plants h3, .plants-lover-right h2{
+        font-size: 1.8rem;
+    }
+   
     /* Card Section Style  */
     .Plants-container{
         margin: 0;
@@ -158,5 +206,17 @@
     }
     .btn{
     padding: 1.187rem 2.5rem;
+    }
+
+    /* Plants Lover  */
+    .badge{
+        display: none;
+    }
+    .plants-lover{
+        flex-direction: column;
+    }
+    .plants-lover-container{
+        margin-top: 2.5rem;
+        padding: 1rem;
     }
 }
