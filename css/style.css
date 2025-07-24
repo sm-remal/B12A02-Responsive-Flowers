@@ -27,6 +27,8 @@
     font-weight: 600;
     font-family: "Inter", sans-serif;
     padding: 1.187rem 5rem;
+    border: none;
+    margin-top: 1.8rem;
 }
 .display-flex{
     display: flex;
@@ -75,6 +77,54 @@
     margin-bottom: 0.82rem;
 }
 
+/* Our Plants Style  */
+.Plants-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 7.5rem;
+}
+
+
+
+/* Card Section Style  */
+
+.our-plants{
+    text-align: center;
+}
+.our-plants h3{
+    margin-bottom: 1rem;
+}
+.our-plants p{
+    margin-bottom: 3rem;
+}
+.card-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+}
+.card{
+    text-align: center;
+}
+.card img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.85rem;
+}
+.card h4{
+    font-family: "Inter", sans-serif;
+    font-size: 1.37rem;
+    font-weight: 500;
+    margin-bottom: 1.1rem;
+}
+.card span{
+    font-family: "Inter", sans-serif;
+    font-size: 1.37rem;
+    font-weight: 700;
+}
+
+
 
 
 
@@ -93,5 +143,20 @@
     }
     .banner-left{
         padding: 1.75rem 1rem 4rem 1rem;
+    }
+    /* Card Section Style  */
+    .Plants-container{
+        margin: 0;
+    }
+    .card-section{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 1rem;
+    }
+    .our-plants p{
+        padding: 0 1rem;
+    }
+    .btn{
+    padding: 1.187rem 2.5rem;
     }
 }
