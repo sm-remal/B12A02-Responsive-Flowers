@@ -6,7 +6,7 @@
 /* Shared Style  */
 .primary-text{
     color: rgba(0, 0, 0, 0.5);
-    font-size: 1.37rem;
+    font-size: 1.15rem;
     font-family: "Inter", sans-serif;
 }
 .title-color{
@@ -164,6 +164,9 @@ ul li{
     max-width: 510px;
     margin-bottom: 1rem;
 }
+.plants-lover-right p{
+    font-weight: normal;
+}
 
 /* Latest Deals Style  */
 .latest-deals{
@@ -305,6 +308,10 @@ ul li{
     }
     .navbar ul{
         gap: 0;
+    }
+    .nav-logo img{
+        width: 80%;
+        height: auto;
     }
     .banner{
         flex-direction: column-reverse;
