@@ -23,9 +23,10 @@
     font-size: 1rem;
     font-weight: 600;
     font-family: "Inter", sans-serif;
-    padding: 1.187rem 5rem;
+    padding: 1rem 5rem;
     border: none;
     margin-top: 1.8rem;
+    width: 100%;
 }
 .display-flex{
     display: flex;
@@ -49,6 +50,9 @@
 .navbar ul .menu{
     color: #8987A1;
 }
+ul li{
+    color: rgba(0, 0, 0, 0.5);
+}
 .nav{
     justify-content: space-between;
     align-items: center;
@@ -56,7 +60,7 @@
 .navbar ul{
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 3rem;
 }
 .nav-logo img{
     width: 100%;
@@ -150,10 +154,6 @@
     width: 100%;
     height: auto;
 }
-ul li{
-    color: rgba(0, 0, 0, 0.5);
-    margin-left: 2.5rem;
-}
 .plants-lover-right{
     font-family: "Noto Serif", serif;
     font-size: 1.9rem;
@@ -166,6 +166,9 @@ ul li{
 }
 .plants-lover-right p{
     font-weight: normal;
+}
+.plants-lover-right ul{
+    padding-left: 2.5rem;
 }
 
 /* Latest Deals Style  */
@@ -317,7 +320,7 @@ ul li{
         flex-direction: column-reverse;
     }
     .banner-left{
-        padding: 1.75rem 1rem 4rem 1rem;
+        padding: 1rem;
     }
     .banner-left h1{
         font-size: 2.5rem;
@@ -339,7 +342,7 @@ ul li{
         padding: 0 1rem;
     }
     .btn{
-    padding: 1.187rem 2.5rem;
+    padding: 1rem;
     }
 
     /* Plants Lover  */
@@ -361,6 +364,7 @@ ul li{
    .deals-image{
     grid-template-columns: 1fr;
     justify-items: center;
+    align-items: center;
     height: auto;
    }
    .image-3{
