@@ -196,17 +196,17 @@ ul li{
     font-family: "Inter", sans-serif;
 }
 .image-1{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/assets/deal-bloom.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/deal-bloom.png");
     background-repeat: no-repeat;
     border-radius: 1rem;
 }
 .image-2{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/assets/deal-ana.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/deal-ana.png");
     background-repeat: no-repeat;
     border-radius: 1rem;
 }
 .image-3{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/assets/deal-zabo.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/deal-zabo.png");
     background-repeat: no-repeat;
     border-radius: 1rem; 
     font-size: 2rem;
@@ -216,7 +216,9 @@ ul li{
 
 /* Colorful Bunch  */
 .colorful-bunch{
-    background-image: url('/assets/news-letter-bg.png');
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: url('../assets/news-letter-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -301,6 +303,9 @@ ul li{
     .nav{
         padding: 1rem;
     }
+    .navbar ul{
+        gap: 0;
+    }
     .banner{
         flex-direction: column-reverse;
     }
@@ -363,7 +368,6 @@ ul li{
     height: 11rem;
     margin: 0 1rem;
    }
-  
    /* Colorful Bunch  */
    .colorful-bunch{
     width: 100%;
